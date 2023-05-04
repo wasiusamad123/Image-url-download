@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <h1>PHP Image Downloader</h1>
+    <h1>PHP URL Image Downloader</h1>
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       // Get the URL and filename from the form
