@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Image preview section */
+
+.image-preview-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image-preview {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+.open-modal-btn {
+  background-color: transparent;
+  border: none;
+  color: #4caf50;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.open-modal-btn:hover {
+  color: #3e8e41;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content img {
+    width: 100%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+}
