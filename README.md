@@ -9,9 +9,6 @@ To use the script, simply modify the $url and $filename variables to match the U
 
 The script will use CURL to download the image data and save it to the specified file. Once the download is complete, the script will output a message indicating whether the download was successful or not.
 
-License
-This script is released under the MIT License. You are free to use, modify, and distribute it as you see fit. However, I make no warranties or guarantees regarding its performance or fitness for any particular purpose. Use at your own risk.
-
 Contributing
 If you find a bug or would like to suggest a new feature, please open an issue or submit a pull request on GitHub. I welcome contributions from anyone who would like to help improve this script.
 
